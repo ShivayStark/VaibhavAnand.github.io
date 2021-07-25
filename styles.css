@@ -1,0 +1,42 @@
+@import url('https://fonts.googleapis.com/css?family=Open+Sans&display=swap');
+
+body{
+    font-family: "Montserrat", sans-serif;
+    max-width: 50%;
+    margin: auto;
+    color: #333;
+}
+
+.head{
+    display: flex;
+    align-items: center;
+}
+
+.face{
+    width: 150px;
+    height: 150px;
+    object-fit: cover;
+    border-radius: 50%;
+    margin-top: 20px;
+}
+
+.title{
+    flex: 1;
+    margin-left: 20px;
+}
+
+.name{
+    color: grey;
+}
+
+.coral{
+    color: coral;
+}
+
+.qualification{
+    letter-spacing: 1px;
+}
+
+.hrline{
+    border:1px solid coral;
+}
